@@ -1,5 +1,10 @@
 /* Boardwalk Games - Main Stylesheet */
 
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
@@ -28,6 +33,7 @@ main {
 
 h1 {
     margin-bottom: 1rem;
+    font-family: 'Macondo', cursive;
 }
 
 p {
