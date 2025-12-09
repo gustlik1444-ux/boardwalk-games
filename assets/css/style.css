@@ -16,7 +16,7 @@
 /* Global Styles */
 body {
     font-family: var(--primary-font);
-    
+    padding: 57.15px; /* to offset fixed navbar height */
 }
 
 h1, h2, h3 {
